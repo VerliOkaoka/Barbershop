@@ -25,6 +25,39 @@ a {
     text-decoration: none;
 }
 
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-header {
+    margin-bottom: 75px;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header-logo {
+    order: 2;
+    width: 368px;
+    height: 153px;
+}
+
+.main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: #000000;
+}
+
+.main-navigation-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .button {
     font: inherit;
     text-align: center;
@@ -48,9 +81,21 @@ a {
     background-color: #000000;
 }
 
-.site-navigation,
-.user-navigation {
+.site-navigation {
+    width: 620px;
+    margin: 0;
+    padding: 0;
     list-style: none;
+}
+
+.site-navigation {
+    width: 620px;
+}
+
+.user-navigation {
+    width: 140px;
+    margin: 0;
+    padding: 0;
 }
 
 .site-navigation a,
@@ -65,17 +110,74 @@ a {
     background-color: #242424;
 }
 
+.features {
+    margin-bottom: 80px;
+}
+
 .features-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
 .feuture-item {
+    width: 300px;
     text-align: center;
 }
 
 .feuture-item h3 {
     font-size: 30px;
     line-height: 42px;
+}
+
+.index-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    margin-bottom: 35px;
+}
+
+.news {
+    width: 380px;
+}
+
+.gallery {
+    width: 300px;
+}
+
+.contacts {
+    width: 380px;
+}
+
+.appointment {
+    width: 300px;
+}
+
+.main-footer {
+    padding: 60px 0;
+    margin-top: 65px;
+}
+
+.main-footer .container {
+    display: flex;
+}
+
+.footer-contacts {
+    width: 320px;
+    margin: 0;
+    margin-right: 80px;
+}
+
+.footer-social {
+    width: 145px;
+}
+
+.footer-copyright {
+    width: 150px;
+    margin: 0;
+    margin-left: auto;
 }
 
 .index-columns {
